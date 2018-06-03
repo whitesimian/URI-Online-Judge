@@ -1,7 +1,6 @@
 #include "bits/stdc++.h"
 #define f(inicio, fim) for(int i = inicio; i < fim; i++)
 #define ff(inicio, fim) for(int j = inicio; j < fim; j++)
-#define fff(inicio, fim) for(int k = inicio; k < fim; k++)
 
 using namespace std;
 
@@ -38,9 +37,9 @@ int main() {
         lista.clear();
         listado.clear();
         funcao(texto);
-        for(set<string>::iterator it = lista.begin();it!=lista.end();it++)
-            cout<<*it<<"\n";
-        cout<<"\n";
+        for(set<string>::iterator it = lista.begin(); it!=lista.end(); it++)
+            cout << *it << "\n";
+        cout << "\n";
     }
 
     return 0;
